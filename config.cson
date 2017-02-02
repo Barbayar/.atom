@@ -1,0 +1,38 @@
+"*":
+  core:
+    projectHome: "/usr/local/funzio"
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "hard"
+  "exception-reporting":
+    userId: "69c2be32-8294-c7eb-4ce6-25d44e4029e8"
+  "git-plus": {}
+  "linter-php": {}
+  welcome:
+    showOnStartup: false
+".erb.html.text":
+  editor:
+    tabLength: 2
+".html.php.text":
+  editor:
+    tabLength: 4
+".js.source":
+  editor:
+    tabLength: 4
+    tabType: "soft"
+".python.source":
+  editor:
+    tabLength: 2
+    tabType: "soft"
+".go.source":
+  editor:
+    tabLength: 4
+    tabType: "soft"
