@@ -7,32 +7,66 @@
       "base16-tomorrow-dark-theme"
     ]
   editor:
-    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
-    tabType: "hard"
+    tabType: "soft"
   "exception-reporting":
     userId: "69c2be32-8294-c7eb-4ce6-25d44e4029e8"
   "git-plus": {}
   "linter-php": {}
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#1d1e21"
+        blue: "#70a3bf"
+        cyan: "#69c0b8"
+        green: "#b1bf63"
+        magenta: "#be91bc"
+        red: "#e85a64"
+        white: "#c4c8c6"
+        yellow: "#ffc46f"
+      zBright:
+        brightBlack: "#1d1e21"
+        brightBlue: "#4ea6c0"
+        brightCyan: "#00c4b9"
+        brightGreen: "#a9c15e"
+        brightMagenta: "#ce8dbd"
+        brightRed: "#ff4361"
+        brightWhite: "#c2c9c6"
+        brightYellow: "#ffc068"
+    core: {}
+    iconColors:
+      blue: "#00aac1"
+      cyan: "#00cab9"
+      green: "#9cc359"
+      magenta: "#e386be"
+      yellow: "#ffbb61"
+    style:
+      fontFamily: "Menlo"
+      fontSize: "12"
+      theme: "tomorrow-night"
+    toggles:
+      autoClose: true
   welcome:
     showOnStartup: false
 ".erb.html.text":
-  editor:
-    tabLength: 2
-".html.php.text":
-  editor:
-    tabLength: 4
-".js.source":
-  editor:
-    tabLength: 4
-    tabType: "soft"
-".python.source":
   editor:
     tabLength: 2
     tabType: "soft"
 ".go.source":
   editor:
     tabLength: 4
+    tabType: "soft"
+".html.php.text":
+  editor:
+    tabLength: 4
+  tabType: "hard"
+".js.source":
+  editor:
+    tabLength: 2
+    tabType: "soft"
+".python.source":
+  editor:
+    tabLength: 2
     tabType: "soft"
