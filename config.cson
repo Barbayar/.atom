@@ -43,6 +43,7 @@
       magenta: "#e386be"
       yellow: "#ffbb61"
     style:
+      animationSpeed: 0
       fontFamily: "Menlo"
       fontSize: "12"
       theme: "tomorrow-night"
