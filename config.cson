@@ -46,7 +46,6 @@
       animationSpeed: 0
       fontFamily: "Menlo"
       fontSize: "12"
-      theme: "tomorrow-night"
     toggles:
       autoClose: true
   welcome:

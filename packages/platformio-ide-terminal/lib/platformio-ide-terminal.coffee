@@ -36,6 +36,11 @@ module.exports =
           description: 'Run text inserted via `platformio-ide-terminal:insert-text` as a command? **This will append an end-of-line character to input.**'
           type: 'boolean'
           default: true
+        selectToCopy:
+          title: 'Select To Copy'
+          description: 'Copies text to clipboard when selection happens.'
+          type: 'boolean'
+          default: true
     core:
       type: 'object'
       order: 2
@@ -131,7 +136,6 @@ module.exports =
             'dracula',
             'one-dark',
             'christmas'
-            'tomorrow-night'
           ]
     ansiColors:
       type: 'object'
