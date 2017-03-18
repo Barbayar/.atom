@@ -7,6 +7,15 @@ module.exports =
     @statusBarTile?.destroy()
     @statusBarTile = null
 
+  providePlatformIOIDETerminal: ->
+    updateProcessEnv: (variables) ->
+      for name, value of variables
+        process.env[name] = value
+    run: (commands) =>
+      @statusBarTile.runCommandInNewTerminal commands
+    getTerminalViews: () =>
+      @statusBarTile.terminalViews
+
   provideRunInTerminal: ->
     run: (commands) =>
       @statusBarTile.runCommandInNewTerminal commands
@@ -75,7 +84,7 @@ module.exports =
               path = require 'path'
               path.resolve(process.env.SystemRoot, 'System32', 'WindowsPowerShell', 'v1.0', 'powershell.exe')
             else
-              process.env.SHELL
+              process.env.SHELL || '/bin/bash'
         shellArguments:
           title: 'Shell Arguments'
           description: 'Specify some arguments to use when launching the shell.'

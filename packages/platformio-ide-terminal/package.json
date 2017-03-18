@@ -2,40 +2,43 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117123-51196-1f7255g/package.tgz",
+        "raw": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117217-62639-1gd6ey4/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117123-51196-1f7255g/package.tgz",
-        "spec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117123-51196-1f7255g/package.tgz",
+        "rawSpec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117217-62639-1gd6ey4/package.tgz",
+        "spec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117217-62639-1gd6ey4/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/apm-install-dir-117123-51196-92fdl2"
+      "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/apm-install-dir-117217-62639-wdrhle"
     ]
   ],
-  "_from": "../d-117123-51196-1f7255g/package.tgz",
-  "_id": "platformio-ide-terminal@2.3.0",
+  "_from": "../d-117217-62639-1gd6ey4/package.tgz",
+  "_id": "platformio-ide-terminal@2.5.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/platformio-ide-terminal",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117123-51196-1f7255g/package.tgz",
+    "raw": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117217-62639-1gd6ey4/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117123-51196-1f7255g/package.tgz",
-    "spec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117123-51196-1f7255g/package.tgz",
+    "rawSpec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117217-62639-1gd6ey4/package.tgz",
+    "spec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117217-62639-1gd6ey4/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117123-51196-1f7255g/package.tgz",
-  "_shasum": "1d2cfe5372af2c9d82f4dd79b52c5247263cc633",
+  "_resolved": "file:../d-117217-62639-1gd6ey4/package.tgz",
+  "_shasum": "99c6ccd7a2300d1194a8677895f5885d436fde76",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117123-51196-1f7255g/package.tgz",
-  "_where": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/apm-install-dir-117123-51196-92fdl2",
+  "_spec": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/d-117217-62639-1gd6ey4/package.tgz",
+  "_where": "/private/var/folders/rf/04b5ws89677303wx4vh8q8lj1r0jcq/T/apm-install-dir-117217-62639-wdrhle",
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
   "author": {
     "name": "Jeremy Ebneyamin"
   },
@@ -70,7 +73,7 @@
   "description": "A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus.",
   "devDependencies": {},
   "engines": {
-    "atom": ">=1.2.0"
+    "atom": ">=1.12.2 <2.0.0"
   },
   "homepage": "https://atom.io/packages/platformio-ide-terminal",
   "keywords": [
@@ -92,8 +95,14 @@
   "name": "platformio-ide-terminal",
   "optionalDependencies": {},
   "providedServices": {
+    "platformioIDETerminal": {
+      "description": "PlatformIO IDE Terminal API",
+      "versions": {
+        "1.0.0": "providePlatformIOIDETerminal"
+      }
+    },
     "runInTerminal": {
-      "description": "Allow to run commands in terminal.",
+      "description": "Deprecated API for PlatformIO IDE 1.0",
       "versions": {
         "0.14.5": "provideRunInTerminal"
       }
@@ -105,5 +114,5 @@
     "type": "git",
     "url": "git+https://github.com/platformio/platformio-atom-ide-terminal.git"
   },
-  "version": "2.3.0"
+  "version": "2.5.0"
 }

@@ -46,6 +46,7 @@
       animationSpeed: 0
       fontFamily: "Menlo"
       fontSize: "12"
+      theme: "one-dark"
     toggles:
       autoClose: true
   welcome:
